@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang= "nl">
+    <head>
+        <title>Beoordelingenlijst</title>
+        <meta http-equiv="content-type" content="text/html
+        charset-UTF-8">
+        
+        <style>
+            
+            #resultaat {
+                border: solid 1px;
+                width: 30%;
+                height: 7%;
+                float: left;
+                clear: both;
+                min-height: 25px;
+            } 
+            
+            #invoerveld {
+                border: solid 1px;
+                width: 30%;
+                height: 60%;
+                float: left;                
+            }
+            
+        </style>
+        
+            <script src="beroordelingenlijst.js"></script>
+    </head>
+    
+    <body>
+            <div id="invoerveld">
+                Cijfer: 
+                <input type="number" id="veldje" min="0" max="100">
+                <button onclick="Click()">Click here</button>
+            </div>
+        
+            <div id="resultaat">
+              
+            </div>
+    </body>
+</html>
